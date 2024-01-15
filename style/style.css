@@ -1,0 +1,67 @@
+/* Set common font family style */
+*{
+    font-family: Mulish;
+}
+/* Header sections start  */
+
+/* Nav-bar style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+}
+.title-logo{
+    display: flex;
+    margin-left: 135px;
+    gap: 15px;
+}
+.logo{
+    height: 56.008px;
+    margin-top: 25px;
+}
+.title{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.travel{
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nav-item ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 44px;
+    margin-right: 127px;
+    list-style: none;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.nav-item ul li a:hover{
+    box-shadow: 0 -5px 0px #FF5400 inset;
+}
+.home{
+    color: #FF5400;
+}
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Responsive style  */
+@media screen and (max-width: 600px) {
+    
+}
