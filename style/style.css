@@ -102,6 +102,7 @@ margin: auto;
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
+    cursor: pointer;
 }
 .fa-chevron-down{
     color: rgba(19, 19, 24, 0.7);
@@ -146,6 +147,7 @@ margin: auto;
     font-size: 1.25rem;
     font-weight: 800;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 /* Chose your destination  */
@@ -173,8 +175,113 @@ margin: auto;
 }
 
 
+/* why chose us section  */
+.card-content{
+    padding: 20px 0;
+}
+.chose-title{
+    text-align: center;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.chose-description{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 400px;
+}
 
+.card-container{
+    display: flex;
+    margin: 20px 135px;
+}
+.card-1{
+    margin: 0 10px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-1 img{
+    width: 64px;
+    height: 64px;
+}
+.card-2{
+    margin: 0 10px;
+    align-items: center;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-2 img{
+    width: 64px;
+    height: 64px;
+}
+.card-3{
+    margin: 0 auto;
+    align-items: center;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.card-3 img{
+    width: 64px;
+    height: 64px;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 0 32px;
+}
+.card-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 32px;
+}
 
+/* A Simple Perfect Place To Get Lost  */
+
+.perfect-place{
+    display: flex;
+    margin: 50px 135px;
+}
+.perfect-place-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.perfect-place-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 532px;
+}
+.perfect-place-content ul li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.perfect-place-video video{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
 
 
 
