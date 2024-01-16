@@ -2,6 +2,11 @@
 *{
     font-family: Mulish;
 }
+body{
+    width: 1440px;
+height: 6940px;
+margin: auto;
+}
 /* Header sections start  */
 
 /* Nav-bar style */
@@ -13,7 +18,6 @@
 }
 .title-logo{
     display: flex;
-    margin-left: 50px;
     gap: 15px;
 }
 .logo{
@@ -111,7 +115,7 @@
 /* our-popular-tours  */
 .our-popular-tours{
     display: flex;
-    margin: 120px 300px;
+    margin: 100px 60px;
     gap: 80px;
 }
 .content-title{
@@ -143,6 +147,35 @@
     font-weight: 800;
     margin-top: 32px;
 }
+
+/* Chose your destination  */
+
+.destination-container{
+    text-align: center;
+}
+.destination-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 400px;
+}
+
+.img-container{
+    display: flex;
+    gap: 24px;
+    margin: 20px 135px;
+}
+
+
+
+
+
 
 
 /* Responsive style  */
