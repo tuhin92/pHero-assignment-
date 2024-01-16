@@ -7,13 +7,13 @@
 /* Nav-bar style */
 .nav-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 52px;
 }
 .title-logo{
     display: flex;
-    margin-left: 135px;
+    margin-left: 50px;
     gap: 15px;
 }
 .logo{
@@ -32,9 +32,9 @@
 }
 .nav-item ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 44px;
-    margin-right: 127px;
+    margin-right: 75px;
     list-style: none;
 }
 .nav-item ul li a{
@@ -51,7 +51,58 @@
     color: #FF5400;
 }
 
-
+/* Banner section  */
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+.banner{
+    text-align: center;
+    color: #FFF;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.box-container{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 20px;
+}
+.box-container input,button{
+    width: 174px;
+    height: 54px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.box-container .btn{
+    color: #FFF;
+    background: #FF5400;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.fa-chevron-down{
+    color: rgba(19, 19, 24, 0.7);
+    margin: auto;
+}
 
 /* Responsive style  */
 @media screen and (max-width: 600px) {
