@@ -366,6 +366,7 @@ margin: auto;
 
 /* Footer started  */
 .footer{
+    margin-top: 80px;
     background:rgba(19, 19, 24, 0.05);
     text-align: center;
 }
